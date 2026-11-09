@@ -1,0 +1,12 @@
+{
+  "claim_id": "RCL-2026-023",
+  "note": "SYNTHETIC EXAMPLE. Fictional volunteer and trip. Held-out claim for experiment P10, written 2026-11-09 before any P10 run.",
+  "traveller": "Volunteer E",
+  "trip_last_day": "2026-09-08",
+  "submitted": "2026-10-19",
+  "items": [
+    {"index": 0, "type": "mileage", "km": 150, "amount": "45.00", "comment": "Library to the coastal branch and back, own car"},
+    {"index": 1, "type": "meal", "date": "2026-09-08", "travel_hours": 8, "amount": "21.00", "comment": "Lunch"},
+    {"index": 2, "type": "hotel", "nights": 1, "receipt": true, "amount": "88.00", "comment": "Harbour Hotel, night of 7 September"}
+  ]
+}

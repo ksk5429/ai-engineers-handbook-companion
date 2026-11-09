@@ -1,0 +1,17 @@
+{
+  "run_id": "20261109T081910552958Z-budget_exceeded",
+  "status": "failed",
+  "reasons": [
+    "step budget of 8 turns exhausted"
+  ],
+  "publish": {
+    "action": "skipped"
+  },
+  "usage": {
+    "model_calls": 8,
+    "calls_with_usage": 0,
+    "totals": "unavailable"
+  },
+  "events_sha256": "229b20d510f8e42ae2be6dd364d88f0529d2996f56c17b5062a6694c8cdf7720",
+  "report_sha256": "6ed98ff1d3acabf74ccf5f1e5450ac540a67c61d57689be83220ce79f4319bdc"
+}

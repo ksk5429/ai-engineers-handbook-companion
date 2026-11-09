@@ -1,0 +1,17 @@
+{
+  "run_id": "20261109T081944363687Z-schema_violation",
+  "status": "failed",
+  "reasons": [
+    "answer violates the schema"
+  ],
+  "publish": {
+    "action": "skipped"
+  },
+  "usage": {
+    "model_calls": 4,
+    "calls_with_usage": 0,
+    "totals": "unavailable"
+  },
+  "events_sha256": "d40a4e6e93f299190e7d6eba086967ac1ee8cbae7a954a49603ef6c57d7c0497",
+  "report_sha256": "7f48bf9879c197baf908775660a4fe9fa4304fb5e869bacbfad87a3342cadbac"
+}

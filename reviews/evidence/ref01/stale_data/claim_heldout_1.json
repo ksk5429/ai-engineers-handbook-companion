@@ -1,0 +1,15 @@
+{
+  "claim_id": "RCL-2026-021",
+  "note": "SYNTHETIC EXAMPLE. Fictional volunteer and trip. Held-out claim for experiment P10, written 2026-11-09 before any P10 run.",
+  "traveller": "Volunteer C",
+  "trip_last_day": "2026-10-14",
+  "submitted": "2026-10-26",
+  "items": [
+    {"index": 0, "type": "mileage", "km": 186, "amount": "55.80", "comment": "Library to the regional book fair and back, own car"},
+    {"index": 1, "type": "meal", "date": "2026-10-12", "travel_hours": 7.5, "amount": "22.40", "comment": "Lunch on the way"},
+    {"index": 2, "type": "meal", "date": "2026-10-13", "travel_hours": 10, "amount": "29.90", "comment": "Lunch and dinner at the fair"},
+    {"index": 3, "type": "meal", "date": "2026-10-14", "travel_hours": 6, "amount": "14.00", "comment": "Sandwich before the drive home"},
+    {"index": 4, "type": "hotel", "nights": 2, "receipt": true, "amount": "176.00", "comment": "Fairview Guesthouse, nights of 12 and 13 October"},
+    {"index": 5, "type": "drinks", "date": "2026-10-13", "amount": "11.00", "comment": "Two glasses of wine with dinner"}
+  ]
+}

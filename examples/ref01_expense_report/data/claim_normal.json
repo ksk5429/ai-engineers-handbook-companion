@@ -1,0 +1,13 @@
+{
+  "claim_id": "RCL-2026-014",
+  "note": "SYNTHETIC EXAMPLE. Fictional volunteer and trip.",
+  "traveller": "Volunteer A",
+  "trip_last_day": "2026-10-02",
+  "submitted": "2026-10-20",
+  "items": [
+    {"index": 0, "type": "mileage", "km": 240, "amount": "84.00", "comment": "Claimed at 0.35 per km"},
+    {"index": 1, "type": "meal", "date": "2026-10-01", "travel_hours": 9, "amount": "31.50", "comment": "Lunch and dinner"},
+    {"index": 2, "type": "meal", "date": "2026-10-02", "travel_hours": 5, "amount": "18.00", "comment": "Lunch"},
+    {"index": 3, "type": "hotel", "nights": 1, "receipt": true, "amount": "105.00", "comment": "Riverside Inn"}
+  ]
+}

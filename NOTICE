@@ -1,0 +1,9 @@
+AI Engineer's Handbook: Practical Agent Systems, Resource Engineering, Evaluation, and Scientific Discovery
+Copyright (c) 2026 Kyeong-Sun Kim. All rights reserved.
+
+Manuscript (handbook/, guides/, dist/ editions): all rights reserved.
+Companion code (examples/, scripts/): MIT licence, see LICENSE-CODE.
+Synthetic data and fixtures in examples/ were written for this book and are covered by the MIT licence with the code.
+Quoted material from third-party sources is attributed in references/sources.md and remains under its owners' terms.
+
+Drafted with Claude Code (Claude Opus 5.5) under the author's direction; reviewed by AI agents; no human reader testing yet.

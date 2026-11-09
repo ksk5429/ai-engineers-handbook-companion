@@ -1,0 +1,437 @@
+{
+  "generated_utc": "2026-11-09T08:17:57+00:00",
+  "generator": "examples/ref01_expense_report/evidence.py",
+  "environment": {
+    "python": "3.12.10",
+    "os": "Windows-11-10.0.26200-SP0"
+  },
+  "git_head": "05678f8003c11d6af476f45c183f5483c15f8078",
+  "git_dirty": false,
+  "code_sha256": "c7bf3060e520993ab68399f1a1b2fc4d58deb20af85ed147ce81c485babc320f",
+  "unit_tests": {
+    "command": "python.exe -m unittest discover -s tests",
+    "exit_status": 0,
+    "summary": [
+      "Ran 73 tests in 62.031s",
+      "",
+      "OK"
+    ]
+  },
+  "cases": [
+    {
+      "case_id": "budget_exceeded",
+      "constructed": true,
+      "expected_status": "failed",
+      "observed_status": "failed",
+      "exit_status": 1,
+      "as_expected": true,
+      "failed_checks": [],
+      "reasons": [
+        "step budget of 8 turns exhausted"
+      ],
+      "run_dir": "20261109T081910552958Z-budget_exceeded",
+      "resources": {
+        "wall_s": 1.5294,
+        "cpu_s": 0.25,
+        "python_heap_peak_bytes": 411451,
+        "process_peak_rss_bytes": 33034240
+      },
+      "usage": {
+        "model_calls": 8,
+        "calls_with_usage": 0,
+        "totals": "unavailable"
+      }
+    },
+    {
+      "case_id": "fabricated_quote",
+      "constructed": true,
+      "expected_status": "failed",
+      "observed_status": "failed",
+      "exit_status": 1,
+      "as_expected": true,
+      "failed_checks": [
+        "C3_quotes_in_source"
+      ],
+      "reasons": [
+        "check failed: C3_quotes_in_source"
+      ],
+      "run_dir": "20261109T081916719397Z-fabricated_quote",
+      "resources": {
+        "wall_s": 1.379,
+        "cpu_s": 0.3594,
+        "python_heap_peak_bytes": 403327,
+        "process_peak_rss_bytes": 32997376
+      },
+      "usage": {
+        "model_calls": 4,
+        "calls_with_usage": 0,
+        "totals": "unavailable"
+      }
+    },
+    {
+      "case_id": "injection_followed",
+      "constructed": true,
+      "expected_status": "failed",
+      "observed_status": "failed",
+      "exit_status": 1,
+      "as_expected": true,
+      "failed_checks": [],
+      "reasons": [
+        "refused tool request: send_payment"
+      ],
+      "run_dir": "20261109T081923886337Z-injection_followed",
+      "resources": {
+        "wall_s": 1.4351,
+        "cpu_s": 0.2969,
+        "python_heap_peak_bytes": 395100,
+        "process_peak_rss_bytes": 33054720
+      },
+      "usage": {
+        "model_calls": 3,
+        "calls_with_usage": 0,
+        "totals": "unavailable"
+      }
+    },
+    {
+      "case_id": "injection_resisted",
+      "constructed": true,
+      "expected_status": "passed",
+      "observed_status": "passed",
+      "exit_status": 0,
+      "as_expected": true,
+      "failed_checks": [],
+      "reasons": [],
+      "run_dir": "20261109T081930521204Z-injection_resisted",
+      "resources": {
+        "wall_s": 1.487,
+        "cpu_s": 0.3281,
+        "python_heap_peak_bytes": 395869,
+        "process_peak_rss_bytes": 33038336
+      },
+      "usage": {
+        "model_calls": 3,
+        "calls_with_usage": 0,
+        "totals": "unavailable"
+      }
+    },
+    {
+      "case_id": "missing_source",
+      "constructed": true,
+      "expected_status": "blocked",
+      "observed_status": "blocked",
+      "exit_status": 2,
+      "as_expected": true,
+      "failed_checks": [
+        "C3_quotes_in_source"
+      ],
+      "reasons": [
+        "required source unavailable: policy_v4.md",
+        "policy document was not loaded"
+      ],
+      "run_dir": "20261109T081936730596Z-missing_source",
+      "resources": {
+        "wall_s": 1.2026,
+        "cpu_s": 0.4688,
+        "python_heap_peak_bytes": 393194,
+        "process_peak_rss_bytes": 32940032
+      },
+      "usage": {
+        "model_calls": 2,
+        "calls_with_usage": 0,
+        "totals": "unavailable"
+      }
+    },
+    {
+      "case_id": "normal",
+      "constructed": true,
+      "expected_status": "passed",
+      "observed_status": "passed",
+      "exit_status": 0,
+      "as_expected": true,
+      "failed_checks": [],
+      "reasons": [],
+      "run_dir": "20261109T081940246027Z-normal",
+      "resources": {
+        "wall_s": 1.3687,
+        "cpu_s": 0.2656,
+        "python_heap_peak_bytes": 69046,
+        "process_peak_rss_bytes": 32231424
+      },
+      "usage": {
+        "model_calls": 4,
+        "calls_with_usage": 0,
+        "totals": "unavailable"
+      }
+    },
+    {
+      "case_id": "schema_violation",
+      "constructed": true,
+      "expected_status": "failed",
+      "observed_status": "failed",
+      "exit_status": 1,
+      "as_expected": true,
+      "failed_checks": [],
+      "reasons": [
+        "answer violates the schema"
+      ],
+      "run_dir": "20261109T081944363687Z-schema_violation",
+      "resources": {
+        "wall_s": 0.6186,
+        "cpu_s": 0.25,
+        "python_heap_peak_bytes": 65302,
+        "process_peak_rss_bytes": 32182272
+      },
+      "usage": {
+        "model_calls": 4,
+        "calls_with_usage": 0,
+        "totals": "unavailable"
+      }
+    },
+    {
+      "case_id": "text_only",
+      "constructed": true,
+      "expected_status": "failed",
+      "observed_status": "failed",
+      "exit_status": 1,
+      "as_expected": true,
+      "failed_checks": [],
+      "reasons": [
+        "model replied with text instead of submit_answer"
+      ],
+      "run_dir": "20261109T081947235529Z-text_only",
+      "resources": {
+        "wall_s": 0.5759,
+        "cpu_s": 0.25,
+        "python_heap_peak_bytes": 51737,
+        "process_peak_rss_bytes": 32043008
+      },
+      "usage": {
+        "model_calls": 2,
+        "calls_with_usage": 0,
+        "totals": "unavailable"
+      }
+    },
+    {
+      "case_id": "wrong_arithmetic",
+      "constructed": true,
+      "expected_status": "failed",
+      "observed_status": "failed",
+      "exit_status": 1,
+      "as_expected": true,
+      "failed_checks": [
+        "C5_total_is_sum"
+      ],
+      "reasons": [
+        "check failed: C5_total_is_sum"
+      ],
+      "run_dir": "20261109T081949550923Z-wrong_arithmetic",
+      "resources": {
+        "wall_s": 0.5486,
+        "cpu_s": 0.2344,
+        "python_heap_peak_bytes": 68902,
+        "process_peak_rss_bytes": 32100352
+      },
+      "usage": {
+        "model_calls": 4,
+        "calls_with_usage": 0,
+        "totals": "unavailable"
+      }
+    }
+  ],
+  "recovery": {
+    "crash": {
+      "exit_status": 3,
+      "stderr": "INTERRUPTED: simulated crash after 2 tool call(s). Resume with: python run.py --resume <run_dir>"
+    },
+    "resume": {
+      "exit_status": 0
+    },
+    "tool_executions": [
+      [
+        "read_document",
+        {
+          "name": "policy.md"
+        }
+      ],
+      [
+        "calculate",
+        {
+          "expression": "240 * 0.30"
+        }
+      ],
+      [
+        "calculate",
+        {
+          "expression": "72.00 + 25.00 + 0.00 + 90.00"
+        }
+      ]
+    ],
+    "event_types": [
+      "run_start",
+      "model_turn",
+      "tool_result",
+      "model_turn",
+      "tool_result",
+      "interruption",
+      "resume",
+      "model_turn",
+      "tool_result",
+      "model_turn",
+      "verdict",
+      "artifact",
+      "publish",
+      "run_end"
+    ],
+    "run_dir": "20261109T081951916842Z-normal",
+    "publish_crash": {
+      "crash_exit": 3,
+      "resume_exit": 0,
+      "publish_events": [
+        {
+          "seq": 9,
+          "type": "publish",
+          "utc": "2026-11-09T08:19:56.660+00:00",
+          "t_s": 0.537828,
+          "action": "recorded",
+          "key": "RCL-2026-015"
+        },
+        {
+          "seq": 14,
+          "type": "publish",
+          "utc": "2026-11-09T08:19:58.481+00:00",
+          "t_s": 0.045681,
+          "action": "duplicate_suppressed",
+          "key": "RCL-2026-015"
+        }
+      ],
+      "ledger_lines": 1
+    }
+  },
+  "checker_evaluation": {
+    "submissions": [
+      {
+        "submission": "genuine_normal",
+        "origin": "genuine",
+        "label_should_accept": true,
+        "checker_accepted": true,
+        "exit_status": 0,
+        "decision": "accepted",
+        "error": null
+      },
+      {
+        "submission": "genuine_injection_resisted",
+        "origin": "genuine",
+        "label_should_accept": true,
+        "checker_accepted": true,
+        "exit_status": 0,
+        "decision": "accepted",
+        "error": null
+      },
+      {
+        "submission": "genuine_resumed_after_crash",
+        "origin": "genuine",
+        "label_should_accept": true,
+        "checker_accepted": true,
+        "exit_status": 0,
+        "decision": "accepted",
+        "error": null
+      },
+      {
+        "submission": "genuine_failed_run",
+        "origin": "genuine",
+        "label_should_accept": false,
+        "checker_accepted": false,
+        "exit_status": 1,
+        "decision": "rejected: the record is valid but the run status is failed",
+        "error": null
+      },
+      {
+        "submission": "interrupted_never_resumed",
+        "origin": "genuine",
+        "label_should_accept": false,
+        "checker_accepted": false,
+        "exit_status": 1,
+        "decision": "rejected: K1_artifacts_present",
+        "error": null
+      },
+      {
+        "submission": "stale_policy",
+        "origin": "seeded",
+        "label_should_accept": false,
+        "checker_accepted": false,
+        "exit_status": 1,
+        "decision": "rejected: K3_bound_to_current_inputs; K5_answer_against_source",
+        "error": null
+      },
+      {
+        "submission": "missing_report",
+        "origin": "seeded",
+        "label_should_accept": false,
+        "checker_accepted": false,
+        "exit_status": 1,
+        "decision": "rejected: K1_artifacts_present",
+        "error": null
+      },
+      {
+        "submission": "forged_pass_on_failed_run",
+        "origin": "seeded",
+        "label_should_accept": false,
+        "checker_accepted": false,
+        "exit_status": 1,
+        "decision": "rejected: K4_status_supported_by_log; K6_report_matches_record",
+        "error": null
+      },
+      {
+        "submission": "edited_total",
+        "origin": "seeded",
+        "label_should_accept": false,
+        "checker_accepted": false,
+        "exit_status": 1,
+        "decision": "rejected: K2_record_integrity",
+        "error": null
+      },
+      {
+        "submission": "log_without_source_read",
+        "origin": "seeded",
+        "label_should_accept": false,
+        "checker_accepted": false,
+        "exit_status": 1,
+        "decision": "rejected: K4_status_supported_by_log",
+        "error": null
+      },
+      {
+        "submission": "narrative_claim",
+        "origin": "seeded",
+        "label_should_accept": false,
+        "checker_accepted": false,
+        "exit_status": 1,
+        "decision": "rejected: the record is valid but the run status is failed",
+        "error": null
+      },
+      {
+        "submission": "partial_forgery",
+        "origin": "seeded",
+        "label_should_accept": false,
+        "checker_accepted": false,
+        "exit_status": 1,
+        "decision": "rejected: K4_status_supported_by_log",
+        "error": null
+      },
+      {
+        "submission": "thorough_forgery",
+        "origin": "seeded",
+        "label_should_accept": false,
+        "checker_accepted": true,
+        "exit_status": 0,
+        "decision": "accepted",
+        "error": "false_acceptance"
+      }
+    ],
+    "false_acceptances": [
+      "thorough_forgery"
+    ],
+    "false_rejections": [],
+    "n": 13,
+    "note": "Labels were written by the author before running. Seeded submissions are artificial edits, not observed failures. n=13 is a demonstration, not a rate."
+  }
+}

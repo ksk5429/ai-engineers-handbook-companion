@@ -1,0 +1,14 @@
+{
+  "recorded": "2026-11-09, about 16:50 KST",
+  "route": "Claude Code VS Code extension 2.1.319, microphone button in the prompt box (confirmed by the owner, 9 Nov 2026); audio processed on Anthropic's servers [M-003]",
+  "speaker": "the owner (one speaker, one session); microphone MATA STUDIO C300",
+  "deviation": "The owner sent all five sentences in ONE message instead of one message each. The managing editor split the message at sentence boundaries; the text of each sentence is unchanged.",
+  "raw_message": "explain why total dot py failed on line 12. Check whether cell D7 adds kilometers and miles without converting them. Load underscore levels dot by14번째 줄에서 key error가 왜 났는지 설명해줘. 또 호텔 is capped at 90 euros per night, so allow 90, not 105. Summarize the options shown here and compare them, but do not change any files.",
+  "transcripts": {
+    "D1": "explain why total dot py failed on line 12.",
+    "D2": "Check whether cell D7 adds kilometers and miles without converting them.",
+    "D3": "Load underscore levels dot by14번째 줄에서 key error가 왜 났는지 설명해줘.",
+    "D4": "또 호텔 is capped at 90 euros per night, so allow 90, not 105.",
+    "D5": "Summarize the options shown here and compare them, but do not change any files."
+  }
+}

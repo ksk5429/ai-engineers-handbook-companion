@@ -1,0 +1,52 @@
+10:53:36  0, 83, 91 %, Active | 1, 40, 31 %, Not Active
+10:53:49  0, 83, 96 %, Active | 1, 41, 11 %, Not Active
+10:54:01  0, 83, 96 %, Active | 1, 41, 23 %, Not Active
+10:54:13  0, 83, 97 %, Active | 1, 40, 22 %, Not Active
+10:54:25  0, 84, 96 %, Active | 1, 40, 8 %, Not Active
+10:54:37  0, 84, 96 %, Active | 1, 40, 7 %, Not Active
+10:54:50  0, 84, 97 %, Active | 1, 40, 16 %, Not Active
+10:55:02  0, 84, 96 %, Active | 1, 40, 18 %, Not Active
+10:55:14  0, 84, 97 %, Active | 1, 40, 13 %, Not Active
+10:55:27  0, 84, 97 %, Active | 1, 41, 11 %, Not Active
+10:55:39  0, 84, 96 %, Active | 1, 40, 15 %, Not Active
+10:55:51  0, 84, 96 %, Active | 1, 40, 30 %, Not Active
+10:56:04  0, 84, 96 %, Active | 1, 40, 24 %, Not Active
+10:56:17  0, 84, 96 %, Active | 1, 40, 11 %, Not Active
+10:56:30  0, 84, 96 %, Active | 1, 41, 12 %, Not Active
+10:56:43  0, 84, 96 %, Active | 1, 40, 18 %, Not Active
+10:56:55  0, 84, 97 %, Active | 1, 41, 7 %, Not Active
+10:57:07  0, 84, 96 %, Active | 1, 41, 12 %, Not Active
+10:57:20  0, 84, 96 %, Active | 1, 41, 21 %, Not Active
+10:57:32  0, 84, 96 %, Active | 1, 41, 5 %, Not Active
+10:57:44  0, 84, 96 %, Active | 1, 41, 27 %, Not Active
+10:57:56  0, 84, 97 %, Active | 1, 41, 11 %, Not Active
+10:58:09  0, 84, 97 %, Active | 1, 41, 8 %, Not Active
+10:58:21  0, 84, 97 %, Active | 1, 41, 25 %, Not Active
+10:58:33  0, 84, 97 %, Active | 1, 41, 22 %, Not Active
+10:58:45  0, 84, 95 %, Active | 1, 42, 3 %, Not Active
+10:58:57  0, 84, 96 %, Active | 1, 42, 4 %, Not Active
+10:59:09  0, 84, 96 %, Active | 1, 41, 10 %, Not Active
+10:59:21  0, 84, 95 %, Active | 1, 41, 20 %, Not Active
+10:59:33  0, 84, 92 %, Active | 1, 41, 11 %, Not Active
+10:59:46  0, 84, 96 %, Active | 1, 41, 8 %, Not Active
+10:59:59  0, 83, 96 %, Active | 1, 41, 14 %, Not Active
+11:00:11  0, 83, 97 %, Active | 1, 41, 12 %, Not Active
+11:00:24  0, 80, 77 %, Not Active | 1, 41, 43 %, Not Active
+11:00:36  0, 83, 96 %, Active | 1, 41, 22 %, Not Active
+11:00:49  0, 83, 93 %, Active | 1, 41, 26 %, Not Active
+11:01:01  0, 83, 96 %, Active | 1, 41, 23 %, Not Active
+11:01:13  0, 83, 96 %, Active | 1, 41, 22 %, Not Active
+11:01:26  0, 83, 97 %, Active | 1, 41, 29 %, Not Active
+11:01:38  0, 83, 95 %, Active | 1, 41, 17 %, Not Active
+11:01:51  0, 82, 97 %, Active | 1, 42, 17 %, Not Active
+11:02:03  0, 83, 97 %, Active | 1, 41, 15 %, Not Active
+11:02:15  0, 83, 97 %, Active | 1, 41, 40 %, Not Active
+11:02:27  0, 83, 96 %, Active | 1, 41, 18 %, Not Active
+11:02:39  0, 84, 97 %, Active | 1, 41, 13 %, Not Active
+11:02:51  0, 84, 96 %, Active | 1, 41, 14 %, Not Active
+11:03:03  0, 84, 96 %, Active | 1, 41, 26 %, Not Active
+11:03:16  0, 84, 95 %, Active | 1, 41, 12 %, Not Active
+11:03:28  0, 84, 96 %, Active | 1, 41, 21 %, Not Active
+11:03:40  0, 79, 25 %, Not Active | 1, 42, 6 %, Not Active
+11:03:52  0, 70, 7 %, Not Active | 1, 42, 4 %, Not Active
+run_trials finished; max GPU0 temp seen 84 C

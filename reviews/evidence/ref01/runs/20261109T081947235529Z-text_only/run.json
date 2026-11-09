@@ -1,0 +1,17 @@
+{
+  "run_id": "20261109T081947235529Z-text_only",
+  "status": "failed",
+  "reasons": [
+    "model replied with text instead of submit_answer"
+  ],
+  "publish": {
+    "action": "skipped"
+  },
+  "usage": {
+    "model_calls": 2,
+    "calls_with_usage": 0,
+    "totals": "unavailable"
+  },
+  "events_sha256": "3b7d9f81a763440f1cbe1542c094699e49bb0615dc84f339517e375fd391e46a",
+  "report_sha256": "ebc0b56eb9a27a2d0d2a89a8d05e25138af83396b294a72d86133a3f0ac3f5e4"
+}

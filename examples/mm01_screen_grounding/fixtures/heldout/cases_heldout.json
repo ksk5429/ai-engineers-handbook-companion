@@ -1,0 +1,111 @@
+{
+  "constructed": true,
+  "spec_version": "2.0",
+  "request_utc": "2026-11-09T05:00:00+00:00",
+  "generator": "examples/mm01_screen_grounding/make_fixtures.py --heldout",
+  "pil_version": "12.2.0",
+  "fonts": {
+    "arial.ttf": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a",
+    "consola.ttf": "cf00b507b3286870cc5064ebd0633c303f70b491a4af25eec2d32df413db0179",
+    "malgun.ttf": "7a183cf1c6c56b9609fcc16eda8b5229fbc11758a21e669ec00343239b02192f",
+    "segoeui.ttf": "704eada12961a27fd271f7d3b09e2066520e758390c1776744eff430fee30f6e"
+  },
+  "provenance": "Synthetic images drawn from the frozen spec; labels in the spec.",
+  "fixtures": [
+    {
+      "fixture_id": "A",
+      "image": "ho_a.png",
+      "sha256": "49d9a97ed01048b654e59c51a261d1fff797be617a81bdf1ddcea23b63f31f73",
+      "width": 1280,
+      "height": 800,
+      "window_title": "site_survey.ods - LibreOffice Calc",
+      "expected_app": "LibreOffice Calc",
+      "boxes": {
+        "D4": [
+          470,
+          206,
+          610,
+          234
+        ],
+        "D5": [
+          470,
+          234,
+          610,
+          262
+        ],
+        "E4": [
+          610,
+          206,
+          900,
+          234
+        ],
+        "D8": [
+          470,
+          318,
+          610,
+          346
+        ]
+      }
+    },
+    {
+      "fixture_id": "B",
+      "image": "ho_b.png",
+      "sha256": "9f39c612bc21539d574fa72c05be7afd5839289f3f2cf2ebd6a0b9439708f405",
+      "width": 1280,
+      "height": 800,
+      "window_title": "Figure 1 - settlement_plot.py",
+      "expected_app": "Figure 1",
+      "boxes": {
+        "S2_day30": [
+          636,
+          211,
+          664,
+          239
+        ],
+        "S1_day45": [
+          901,
+          151,
+          929,
+          179
+        ]
+      }
+    },
+    {
+      "fixture_id": "C",
+      "image": "ho_c.png",
+      "sha256": "4ccf0e6d9499583ab449e8da5bf73b9d4098d233b50c51d2ca6ff2187b21538a",
+      "width": 1280,
+      "height": 800,
+      "window_title": "Windows PowerShell",
+      "expected_app": "PowerShell",
+      "boxes": {
+        "user_frame_line_14": [
+          0,
+          174,
+          1280,
+          196
+        ],
+        "keyerror_line": [
+          0,
+          306,
+          1280,
+          328
+        ],
+        "columns_line": [
+          0,
+          350,
+          1280,
+          372
+        ],
+        "warning_line": [
+          0,
+          86,
+          1280,
+          108
+        ]
+      }
+    }
+  ],
+  "spec_sha256": "3c8d5e1e50b14da739d21b6bb5a822afb2de429c22b5c4256d6fc42ef496f8e4",
+  "dev_hashes_unchanged": true
+}

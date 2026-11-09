@@ -1,0 +1,25 @@
+{
+  "run_id": "20261109T070528546709Z-live",
+  "status": "failed",
+  "reasons": [
+    "check failed: C3_quotes_in_source",
+    "check failed: C4_not_above_claimed"
+  ],
+  "publish": {
+    "action": "skipped"
+  },
+  "usage": {
+    "model_calls": 5,
+    "calls_with_usage": 5,
+    "totals": {
+      "prompt_eval_count": 6569,
+      "eval_count": 1741,
+      "total_duration": 43215602100,
+      "load_duration": 8363965900,
+      "prompt_eval_duration": 1109191000,
+      "eval_duration": 33685204000
+    }
+  },
+  "events_sha256": "de9271e4fa362ff548a347e56ccab58a416c496e50c4a2b44abf5fcb539e6280",
+  "report_sha256": "2d2bc44823a8ad2ded4a14970c77b3e7ea1d2b3e69fb68a5f1d526ae2a3e9f07"
+}

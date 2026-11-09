@@ -1,0 +1,18 @@
+{
+  "run_id": "20261109T081936730596Z-missing_source",
+  "status": "blocked",
+  "reasons": [
+    "required source unavailable: policy_v4.md",
+    "policy document was not loaded"
+  ],
+  "publish": {
+    "action": "skipped"
+  },
+  "usage": {
+    "model_calls": 2,
+    "calls_with_usage": 0,
+    "totals": "unavailable"
+  },
+  "events_sha256": "bc118f4afdcb9debe8e264975e2d521041c3f1509ca723dfe99fdb0755fef4c1",
+  "report_sha256": "1681f676a61b75237c5e22560f2fec307565a914ecc8d0b930f0ab2912b90c59"
+}

@@ -1,0 +1,16 @@
+{
+  "run_id": "20261109T081951916842Z-normal",
+  "status": "passed",
+  "reasons": [],
+  "publish": {
+    "action": "duplicate_suppressed",
+    "key": "RCL-2026-014"
+  },
+  "usage": {
+    "model_calls": 4,
+    "calls_with_usage": 0,
+    "totals": "unavailable"
+  },
+  "events_sha256": "6d7022c5a79413b14f4f7f533308a66a66b5074e28cf6b7510f003986b9655e4",
+  "report_sha256": "c42515959b24e167d4071a1f11ef4e0ba5c3db9af2f2c441e2af721e5d5212eb"
+}

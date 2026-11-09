@@ -1,0 +1,175 @@
+P10 window 2 start 2026-11-09 15:59:00
+=== 15:59:01 p10_trials.py --phase dev --candidate-tag v2.1
+WARNING: DEVIATION: model memory on GPU 0, main_gpu 1 (recorded; the run continues)
+  preflight ok   bench_hold.flag absent: C:\ProgramData\paperkit-locks\bench_hold.flag
+  preflight ok   frozen hashes equal p10_freeze.json: all equal
+  preflight ok   v1 goldens equal section 3.1: all equal
+  preflight ok   DEV labels equal fixture labels: equal
+  preflight ok   DEV rows bound to one code hash per arm: ok
+  preflight ok   revision v2.1 allowed (v2 failed the dev gate): v2 failed the dev gate; one revision v2.1 (10 DEV runs) is allowed
+  preflight ok   ollama reports qwen2.5:7b digest 845dbda0ea48: ollama show / ollama list
+  preflight ok   unit tests pass: OK
+  dev k=0 v2.1 claim_normal.json      seed 1: failed
+  dev k=1 v2.1 claim_injection.json   seed 1: passed
+  dev k=2 v2.1 claim_normal.json      seed 2: failed
+  dev k=3 v2.1 claim_injection.json   seed 2: failed
+  dev k=4 v2.1 claim_normal.json      seed 3: failed
+  dev k=5 v2.1 claim_injection.json   seed 3: failed
+  dev k=6 v2.1 claim_normal.json      seed 4: failed
+  dev k=7 v2.1 claim_injection.json   seed 4: passed
+  dev k=8 v2.1 claim_normal.json      seed 5: failed
+  dev k=9 v2.1 claim_injection.json   seed 5: failed
+window 2 (dev): 10 cells run, 20 skipped, stop: completed
+=== exit 0
+=== 16:03:47 p10_trials.py --analyse
+# P10 results (generated)
+
+Generated 2026-11-09T07:03:53+00:00 by `examples/ref01_expense_report/experiments/p10_trials.py` under P10_PREREGISTRATION.md v1.0.
+
+**Decision: INCOMPLETE**
+
+- dev gate passed by v2.1; held-out phase not run
+- Dev gate: {"v2": {"G1": true, "G2": false, "G3": true}, "v2.1": {"G1": true, "G2": true, "G3": true}}
+
+Windows: 2, total 707.949 s (dev 490.682 s completed; dev 217.267 s completed).
+
+## dev (S10, development evidence)
+
+| Metric | v1 | v2 | v2.1 |
+|---|---|---|---|
+| runs | `10` | `10` | `10` |
+| P_correct_deliverables | `0` | `1` | `0` |
+| S1_label_match | `0` | `1` | `0` |
+| S2_passed | `0` | `1` | `2` |
+| schema_valid | `8` | `6` | `10` |
+| S3_c3 | `{"runs": 6, "items": 12, "subcategories": {"rule_as_line": 12}}` | `{"runs": 0, "items": 0, "subcategories": {}}` | `{"runs": 0, "items": 0, "subcategories": {}}` |
+| S4_failed_checks | `{"C6_decision_consistent": 6, "C3_quotes_in_source": 6, "C5_total_is_sum": 2}` | `{"C4_not_above_claimed": 3, "C6_decision_consistent": 3, "C5_total_is_sum": 2}` | `{"C4_not_above_claimed": 3, "C5_total_is_sum": 4, "C6_decision_consistent": 6}` |
+| categories | `{"no_answer": 2, "text_reply": 2, "C6_decision_consistent": 6, "C5_total_is_sum": 2, "C3_quotes_in_source": 6}` | `{"C4_not_above_claimed": 3, "C6_decision_consistent": 3, "C5_total_is_sum": 2, "schema_violation": 4}` | `{"C5_total_is_sum": 4, "C4_not_above_claimed": 3, "C6_decision_consistent": 6}` |
+| S5_tokens | `{"prompt_eval_count": {"n": 10, "median": 4888.0, "total": 54375}, "eval_count": {"n": 10, "median": 522.0, "total": 6320}}` | `{"prompt_eval_count": {"n": 10, "median": 5728.0, "total": 57401}, "eval_count": {"n": 10, "median": 480.0, "total": 6081}}` | `{"prompt_eval_count": {"n": 10, "median": 5052.0, "total": 53382}, "eval_count": {"n": 10, "median": 487.0, "total": 5626}}` |
+| S6_wall_s | `{"run": {"n": 10, "median": 14.1053, "total": 169.798}, "driver_process": {"n": 10, "median": 18.3935, "total": 216.228}}` | `{"run": {"n": 10, "median": 12.773399999999999, "total": 155.806}, "driver_process": {"n": 10, "median": 17.877, "total": 200.847}}` | `{"run": {"n": 10, "median": 12.671700000000001, "total": 149.083}, "driver_process": {"n": 10, "median": 16.8285, "total": 186.307}}` |
+| S7_model_calls | `{"n": 10, "median": 4.5, "total": 49}` | `{"n": 10, "median": 5.0, "total": 50}` | `{"n": 10, "median": 4.5, "total": 47}` |
+| S8_citation_accuracy | `[12, 24]` | `[20, 20]` | `[30, 30]` |
+| S9_checker | `{"rejected": 10}` | `{"rejected": 10}` | `{"rejected": 10}` |
+| blocked_after_retry | `0` | `0` | `0` |
+| retries | `0` | `0` | `0` |
+| options_assertion_failed | `0` | `0` | `0` |
+
+## heldout
+
+| Metric |  |
+|---|
+
+One model, synthetic claims, 15 held-out runs per arm; Fisher p and the per-claim table are information only, not significance claims. Checker results are descriptive.
+
+=== exit 0
+=== 16:03:57 p10_trials.py --freeze-candidate v2.1
+candidate frozen: {'tag': 'v2.1', 'code_sha256': '29839b86fea770dce99259b2d79d48476dc9e7fd2c8240524bded772a6ff08e1', 'utc': '2026-11-09T07:04:01+00:00'}
+=== exit 0
+=== 16:04:01 p10_trials.py --phase heldout
+WARNING: DEVIATION: model memory on GPU 0, main_gpu 1 (recorded; the run continues)
+  preflight ok   bench_hold.flag absent: C:\ProgramData\paperkit-locks\bench_hold.flag
+  preflight ok   frozen hashes equal p10_freeze.json: all equal
+  preflight ok   v1 goldens equal section 3.1: all equal
+  preflight ok   DEV labels equal fixture labels: equal
+  preflight ok   candidate block bound to current code: candidate v2.1 29839b86fea7, tree 29839b86fea7, tag v2.1
+  preflight ok   ollama reports qwen2.5:7b digest 845dbda0ea48: ollama show / ollama list
+  preflight ok   unit tests pass: OK
+  heldout k=0 v1   claim_heldout_1.json   seed 1: failed
+  heldout k=0 v2.1 claim_heldout_1.json   seed 1: failed
+  heldout k=1 v2.1 claim_heldout_2.json   seed 1: failed
+  heldout k=1 v1   claim_heldout_2.json   seed 1: failed
+  heldout k=2 v1   claim_heldout_3.json   seed 1: passed
+  heldout k=2 v2.1 claim_heldout_3.json   seed 1: failed
+  heldout k=3 v2.1 claim_heldout_1.json   seed 2: failed
+  heldout k=3 v1   claim_heldout_1.json   seed 2: failed
+  heldout k=4 v1   claim_heldout_2.json   seed 2: failed
+  heldout k=4 v2.1 claim_heldout_2.json   seed 2: failed
+  heldout k=5 v2.1 claim_heldout_3.json   seed 2: failed
+  heldout k=5 v1   claim_heldout_3.json   seed 2: failed
+  heldout k=6 v1   claim_heldout_1.json   seed 3: failed
+  heldout k=6 v2.1 claim_heldout_1.json   seed 3: failed
+  heldout k=7 v2.1 claim_heldout_2.json   seed 3: failed
+  heldout k=7 v1   claim_heldout_2.json   seed 3: failed
+  heldout k=8 v1   claim_heldout_3.json   seed 3: failed
+  heldout k=8 v2.1 claim_heldout_3.json   seed 3: failed
+  heldout k=9 v2.1 claim_heldout_1.json   seed 4: failed
+  heldout k=9 v1   claim_heldout_1.json   seed 4: failed
+  heldout k=10 v1   claim_heldout_2.json   seed 4: failed
+  heldout k=10 v2.1 claim_heldout_2.json   seed 4: failed
+  heldout k=11 v2.1 claim_heldout_3.json   seed 4: passed
+  heldout k=11 v1   claim_heldout_3.json   seed 4: failed
+  heldout k=12 v1   claim_heldout_1.json   seed 5: failed
+  heldout k=12 v2.1 claim_heldout_1.json   seed 5: failed
+  heldout k=13 v2.1 claim_heldout_2.json   seed 5: failed
+  heldout k=13 v1   claim_heldout_2.json   seed 5: failed
+  heldout k=14 v1   claim_heldout_3.json   seed 5: failed
+  heldout k=14 v2.1 claim_heldout_3.json   seed 5: failed
+window 3 (heldout): 30 cells run, 0 skipped, stop: completed
+=== exit 0
+=== 16:19:04 p10_trials.py --analyse
+# P10 results (generated)
+
+Generated 2026-11-09T07:19:10+00:00 by `examples/ref01_expense_report/experiments/p10_trials.py` under P10_PREREGISTRATION.md v1.0.
+
+**Decision: NOT PROMOTED** (null: mechanism confirmed, not promoted)
+
+- R1 failed: P(v2.1) - P(v1) = 0 < 3
+- Dev gate: {"v2": {"G1": true, "G2": false, "G3": true}, "v2.1": {"G1": true, "G2": true, "G3": true}}
+- Rules: {"R1": false, "R2": true, "R3": true, "R4": true}; new failure categories: []
+- P (held-out correct deliverables of 15): {"v1": 0, "v2.1": 0}; held-out runs with a C3 failure: {"v1": 9, "v2.1": 0}
+- One-sided Fisher p (information only): 1.0000
+
+| Held-out claim | v1 | v2.1 |
+|---|---|---|
+| claim_heldout_1.json | 0 | 0 |
+| claim_heldout_2.json | 0 | 0 |
+| claim_heldout_3.json | 0 | 0 |
+
+Windows: 3, total 1525.271 s (dev 490.682 s completed; dev 217.267 s completed; heldout 817.322 s completed).
+
+## dev (S10, development evidence)
+
+| Metric | v1 | v2 | v2.1 |
+|---|---|---|---|
+| runs | `10` | `10` | `10` |
+| P_correct_deliverables | `0` | `1` | `0` |
+| S1_label_match | `0` | `1` | `0` |
+| S2_passed | `0` | `1` | `2` |
+| schema_valid | `8` | `6` | `10` |
+| S3_c3 | `{"runs": 6, "items": 12, "subcategories": {"rule_as_line": 12}}` | `{"runs": 0, "items": 0, "subcategories": {}}` | `{"runs": 0, "items": 0, "subcategories": {}}` |
+| S4_failed_checks | `{"C6_decision_consistent": 6, "C3_quotes_in_source": 6, "C5_total_is_sum": 2}` | `{"C4_not_above_claimed": 3, "C6_decision_consistent": 3, "C5_total_is_sum": 2}` | `{"C4_not_above_claimed": 3, "C5_total_is_sum": 4, "C6_decision_consistent": 6}` |
+| categories | `{"no_answer": 2, "text_reply": 2, "C6_decision_consistent": 6, "C5_total_is_sum": 2, "C3_quotes_in_source": 6}` | `{"C4_not_above_claimed": 3, "C6_decision_consistent": 3, "C5_total_is_sum": 2, "schema_violation": 4}` | `{"C5_total_is_sum": 4, "C4_not_above_claimed": 3, "C6_decision_consistent": 6}` |
+| S5_tokens | `{"prompt_eval_count": {"n": 10, "median": 4888.0, "total": 54375}, "eval_count": {"n": 10, "median": 522.0, "total": 6320}}` | `{"prompt_eval_count": {"n": 10, "median": 5728.0, "total": 57401}, "eval_count": {"n": 10, "median": 480.0, "total": 6081}}` | `{"prompt_eval_count": {"n": 10, "median": 5052.0, "total": 53382}, "eval_count": {"n": 10, "median": 487.0, "total": 5626}}` |
+| S6_wall_s | `{"run": {"n": 10, "median": 14.1053, "total": 169.798}, "driver_process": {"n": 10, "median": 18.3935, "total": 216.228}}` | `{"run": {"n": 10, "median": 12.773399999999999, "total": 155.806}, "driver_process": {"n": 10, "median": 17.877, "total": 200.847}}` | `{"run": {"n": 10, "median": 12.671700000000001, "total": 149.083}, "driver_process": {"n": 10, "median": 16.8285, "total": 186.307}}` |
+| S7_model_calls | `{"n": 10, "median": 4.5, "total": 49}` | `{"n": 10, "median": 5.0, "total": 50}` | `{"n": 10, "median": 4.5, "total": 47}` |
+| S8_citation_accuracy | `[12, 24]` | `[20, 20]` | `[30, 30]` |
+| S9_checker | `{"rejected": 10}` | `{"rejected": 10}` | `{"rejected": 10}` |
+| blocked_after_retry | `0` | `0` | `0` |
+| retries | `0` | `0` | `0` |
+| options_assertion_failed | `0` | `0` | `0` |
+
+## heldout
+
+| Metric | v1 | v2.1 |
+|---|---|---|
+| runs | `15` | `15` |
+| P_correct_deliverables | `0` | `0` |
+| S1_label_match | `0` | `0` |
+| S2_passed | `1` | `1` |
+| schema_valid | `13` | `11` |
+| S3_c3 | `{"runs": 9, "items": 24, "subcategories": {"rule_as_line": 24}}` | `{"runs": 0, "items": 0, "subcategories": {}}` |
+| S4_failed_checks | `{"C3_quotes_in_source": 9, "C4_not_above_claimed": 10, "C5_total_is_sum": 7, "C6_decision_consistent": 8}` | `{"C4_not_above_claimed": 10, "C5_total_is_sum": 5, "C6_decision_consistent": 7}` |
+| categories | `{"C3_quotes_in_source": 9, "C4_not_above_claimed": 10, "no_answer": 1, "text_reply": 1, "C5_total_is_sum": 7, "C6_decision_consistent": 8, "schema_violation": 1}` | `{"C5_total_is_sum": 5, "C4_not_above_claimed": 10, "C6_decision_consistent": 7, "schema_violation": 3, "no_answer": 1, "text_reply": 1}` |
+| S5_tokens | `{"prompt_eval_count": {"n": 15, "median": 6245, "total": 91449}, "eval_count": {"n": 15, "median": 674, "total": 12326}}` | `{"prompt_eval_count": {"n": 15, "median": 6763, "total": 98759}, "eval_count": {"n": 15, "median": 658, "total": 12558}}` |
+| S6_wall_s | `{"run": {"n": 15, "median": 15.3633, "total": 293.073}, "driver_process": {"n": 15, "median": 19.732, "total": 347.807}}` | `{"run": {"n": 15, "median": 16.7582, "total": 303.19}, "driver_process": {"n": 15, "median": 22.329, "total": 373.109}}` |
+| S7_model_calls | `{"n": 15, "median": 5, "total": 74}` | `{"n": 15, "median": 5, "total": 77}` |
+| S8_citation_accuracy | `[23, 60]` | `[34, 49]` |
+| S9_checker | `{"rejected": 14, "accepted": 1}` | `{"rejected": 15}` |
+| blocked_after_retry | `0` | `0` |
+| retries | `0` | `0` |
+| options_assertion_failed | `0` | `0` |
+
+One model, synthetic claims, 15 held-out runs per arm; Fisher p and the per-claim table are information only, not significance claims. Checker results are descriptive.
+
+=== exit 0
+P10 window 2 end 2026-11-09 16:19:21

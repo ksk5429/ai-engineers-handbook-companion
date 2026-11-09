@@ -1,0 +1,23 @@
+{
+  "run_id": "20261109T011453453007Z-live",
+  "status": "passed",
+  "reasons": [],
+  "publish": {
+    "action": "recorded",
+    "key": "RCL-2026-014"
+  },
+  "usage": {
+    "model_calls": 5,
+    "calls_with_usage": 5,
+    "totals": {
+      "prompt_eval_count": 5705,
+      "eval_count": 957,
+      "total_duration": 19369302500,
+      "load_duration": 1177038100,
+      "prompt_eval_duration": 641021000,
+      "eval_duration": 17465328000
+    }
+  },
+  "events_sha256": "cc56e8b1a3a68d40461a162b1516e2f09fb42eb9e77de4614a302c8f3cbe9e6d",
+  "report_sha256": "126fa81eb78655c1b926c4c1b50542de37e3e1a9d686c875e25429ac3f75eeaa"
+}

@@ -1,0 +1,24 @@
+{
+  "run_id": "20261109T011537666776Z-live",
+  "status": "failed",
+  "reasons": [
+    "step budget of 8 turns exhausted"
+  ],
+  "publish": {
+    "action": "skipped"
+  },
+  "usage": {
+    "model_calls": 9,
+    "calls_with_usage": 9,
+    "totals": {
+      "prompt_eval_count": 11472,
+      "eval_count": 245,
+      "total_duration": 7650856800,
+      "load_duration": 2328346900,
+      "prompt_eval_duration": 804134000,
+      "eval_duration": 4371783000
+    }
+  },
+  "events_sha256": "5e69d7ea82aa301bab67fc3a01f91da19a9ce652313c6920d8d4f233dee0257a",
+  "report_sha256": "70f29a1a4655dcce42e5cad3552fe9a59e71edc020e8040b096f3c50cbde2b8c"
+}

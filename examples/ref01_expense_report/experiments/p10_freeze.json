@@ -1,0 +1,48 @@
+{
+  "protocol": "experiments/P10_PREREGISTRATION.md v1.0 + P10_PROTOCOL_ADDENDUM_1_1.md",
+  "recorded_utc": "2026-11-09T06:19:27+00:00",
+  "files": {
+    "checker.py": "5f31e451b903fdd270bbe14491914eb2289936a4a818f364fc0ff0fb7c2b4903",
+    "data/claim_heldout_1.json": "6c9cc99914e9c4c8e865c5889bc1391e157ec3fa16dea2b1790b90dfedcb09dd",
+    "data/claim_heldout_2.json": "652f7a6df114a5c9d456dae6cc6b0b199887c9377dbfad860276f68b63e5dd12",
+    "data/claim_heldout_3.json": "112874320c035013b8aea8fc240ab2cb3253254a165bef9e9a639e5764ef342a",
+    "data/claim_injection.json": "b92746bf14d0ae80b76e61ccc52aef6551af1076d16d34e5063d530574928803",
+    "data/claim_normal.json": "f131b29705b82aca25a126925efcf3e0e3bc7503fa18f683a1b58a32e4d0854b",
+    "data/policy.md": "d6993b49158fecc90f64b8feae8000e4e06c99e1d2128f386cca034bcc52f6a4",
+    "docassist/checks.py": "35e2de43507720b37d310aabf5a35c9c3b8287851017f750640cb1d573196387",
+    "docassist/schema.py": "36a686aa92508ab52e3e7efbe07e4244b5eea1201943ce2aef23cd5dab0b1807",
+    "experiments/P10_PREREGISTRATION.md": "ef1b8f3785170df513cd96eb0165e26e5cfeb19111f5f14fce3cd3ff43db71d6",
+    "experiments/P10_PROTOCOL_ADDENDUM_1_1.md": "e76e2e13e5deaae7b87b9ed19a2dabde77fcdb93c6e208ebf6a396c581336fd6",
+    "experiments/P10_labels.json": "34c3afe6b9cecfce2343bfdaf51756ec1bed9eecc2f59f965b5f9c4569df2005",
+    "experiments/p10_fake_run.py": "07449fe1a1b6abad4277659a7d191ae5d9b48c30000181697da9fbe294b00579",
+    "experiments/p10_trials.py": "1cc67721687721faf51e732765779afbba49a4d19a19d807d3706d78f370dbf5",
+    "fixtures/cases/budget_exceeded.json": "d74f66191026117ede8fca19f91425926ec6ca4c0f5e243da06d3f281970c5a3",
+    "fixtures/cases/fabricated_quote.json": "6b29625c128b1e1cfacf5519b11c9816a4a9e94b69c300508f33e4685fbfd961",
+    "fixtures/cases/injection_followed.json": "83101a07ae2dc4aa822393cdd87289839a4afa0f93eda2cb78d7eaeff5e27749",
+    "fixtures/cases/injection_resisted.json": "2254739f13adb808d43e5c1f5315857a9a4f412c38fc51e6a1ed3cee1cd3e257",
+    "fixtures/cases/missing_source.json": "ecb22431bde716029b73a3d0150f6d4bb5e331c1d2b666d5fcdaceabd56d325c",
+    "fixtures/cases/normal.json": "a01644a4d35ff20cdc0bba9f298a4be737c14e547f5d826f9ee2447af43a34bd",
+    "fixtures/cases/schema_violation.json": "668dcd8eb52c68cb39663a7bda549c38b364577cbd217ff08ba0c412d982cc50",
+    "fixtures/cases/text_only.json": "f7ab85de2282bb1476f625fce5cf8bd8d36745fe805cf54889dd4106cc47fe86",
+    "fixtures/cases/wrong_arithmetic.json": "09c803e21cd199eab733f4c9f175c627cca71945b0522d464299fc18ffac7575",
+    "fixtures/make_cases.py": "21ea1bd1c32e5a364a581e2284c8349c3df3261bf85cfb66610d24002b39fbe1",
+    "run.py": "8fb7abf3aba6d9d11ea37bc404d72c725ed34da4b509ab1db266dbfb6d70cda6",
+    "schemas/answer.schema.json": "c1f1b810cd1417f841bf7f281dbbf78009cc038eb30e3e3d0c75ca5a6d54c1fa",
+    "task_contract.json": "7978d2752dd669b5979ab423b13955e64471e7b406b1f5cd1cb940b7830e0e09",
+    "tests/test_docassist.py": "473815b9c090dd959ec2333b14e675765bc521a5c2058c141c6b74d8fb363afb"
+  },
+  "goldens": {
+    "tool_definitions": "4e5ea06e93776faee744f3ed2e3faa9bb3cd8e695487db49a119e5b9b1e84517",
+    "system_prompt": "e33b955890d432a663aa6a5e5f778baeb3cbb5991b799baf332612069d730633",
+    "read_document_policy": "4b812fdb90bd9e639bc8e0d366b1d922b3c011481fa5504f707696d71761c6e8",
+    "evaluate_source": "c9e6f6889eb7aa162f41d8d2d524b400bd7d0d854c2a32e166b7378a326b0f96"
+  },
+  "addendum_sha256": "e76e2e13e5deaae7b87b9ed19a2dabde77fcdb93c6e208ebf6a396c581336fd6",
+  "driver_sha256": "1cc67721687721faf51e732765779afbba49a4d19a19d807d3706d78f370dbf5",
+  "code_sha256_at_freeze": "b6a1d083fde6694531e4e834907572690ac9d322ae58bfc5a94b59338c379800",
+  "candidate": {
+    "tag": "v2.1",
+    "code_sha256": "29839b86fea770dce99259b2d79d48476dc9e7fd2c8240524bded772a6ff08e1",
+    "utc": "2026-11-09T07:04:01+00:00"
+  }
+}

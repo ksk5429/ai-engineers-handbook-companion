@@ -1,0 +1,17 @@
+17:21:34  0, 47, 74 %, 5522 MiB, Not Active | 1, 36, 14 %, 2335 MiB, Not Active
+17:21:47  0, 58, 94 %, 5524 MiB, Not Active | 1, 36, 17 %, 2338 MiB, Not Active
+17:22:00  0, 51, 22 %, 5524 MiB, Not Active | 1, 35, 38 %, 2336 MiB, Not Active
+17:22:12  0, 52, 16 %, 5524 MiB, Not Active | 1, 35, 18 %, 2336 MiB, Not Active
+17:22:26  0, 59, 93 %, 5524 MiB, Not Active | 1, 35, 69 %, 2342 MiB, Not Active
+17:22:39  0, 64, 94 %, 5524 MiB, Not Active | 1, 36, 15 %, 2340 MiB, Not Active
+17:22:52  0, 55, 21 %, 5524 MiB, Not Active | 1, 35, 28 %, 2316 MiB, Not Active
+17:23:05  0, 67, 95 %, 5524 MiB, Not Active | 1, 35, 46 %, 2342 MiB, Not Active
+17:23:17  0, 70, 95 %, 5524 MiB, Not Active | 1, 35, 53 %, 2312 MiB, Not Active
+17:23:30  0, 68, 70 %, 5524 MiB, Not Active | 1, 36, 19 %, 2320 MiB, Not Active
+17:23:43  0, 67, 70 %, 5524 MiB, Not Active | 1, 36, 12 %, 2319 MiB, Not Active
+17:23:56  0, 62, 19 %, 5524 MiB, Not Active | 1, 36, 14 %, 2334 MiB, Not Active
+17:24:09  0, 73, 95 %, 5524 MiB, Not Active | 1, 35, 55 %, 2324 MiB, Not Active
+17:24:22  0, 72, 94 %, 5524 MiB, Not Active | 1, 36, 35 %, 2327 MiB, Not Active
+17:24:35  0, 67, 63 %, 5524 MiB, Not Active | 1, 36, 68 %, 2326 MiB, Not Active
+17:24:49  0, 61, 24 %, 5524 MiB, Not Active | 1, 36, 27 %, 2322 MiB, Not Active
+run finished; max temperature per GPU: GPU0=73C, GPU1=36C

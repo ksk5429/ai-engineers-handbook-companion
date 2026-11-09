@@ -1,0 +1,24 @@
+{
+  "run_id": "20261109T070728102461Z-live",
+  "status": "failed",
+  "reasons": [
+    "model replied with text instead of submit_answer"
+  ],
+  "publish": {
+    "action": "skipped"
+  },
+  "usage": {
+    "model_calls": 5,
+    "calls_with_usage": 5,
+    "totals": {
+      "prompt_eval_count": 6245,
+      "eval_count": 917,
+      "total_duration": 22031186700,
+      "load_duration": 1214877700,
+      "prompt_eval_duration": 1320364999,
+      "eval_duration": 19396572000
+    }
+  },
+  "events_sha256": "ddbd6e593e70afb56e91671c701c37cccb200a6b2311bcbbe57b1fa4e09db48d",
+  "report_sha256": "a8f46b275f2aa87dd4a17a9bc71ea8bd42694a3e87796c0f1283342eaf9a11ca"
+}

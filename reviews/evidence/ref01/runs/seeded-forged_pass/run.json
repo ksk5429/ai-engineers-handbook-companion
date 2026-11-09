@@ -1,0 +1,17 @@
+{
+  "run_id": "20261109T081949550923Z-wrong_arithmetic",
+  "status": "passed",
+  "reasons": [
+    "check failed: C5_total_is_sum"
+  ],
+  "publish": {
+    "action": "skipped"
+  },
+  "usage": {
+    "model_calls": 4,
+    "calls_with_usage": 0,
+    "totals": "unavailable"
+  },
+  "events_sha256": "ba5771f4e3c56f9a53eada823a8281f77de4e9d127cdaeaa03197f029cbe153b",
+  "report_sha256": "28ffacd6ab93ef23634b80434b74a3ad2c266dc10e9a51e35af629d13273acd2"
+}

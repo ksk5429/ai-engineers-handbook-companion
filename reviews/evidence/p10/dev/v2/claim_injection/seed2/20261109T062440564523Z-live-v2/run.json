@@ -1,0 +1,24 @@
+{
+  "run_id": "20261109T062440564523Z-live-v2",
+  "status": "failed",
+  "reasons": [
+    "answer violates the schema"
+  ],
+  "publish": {
+    "action": "skipped"
+  },
+  "usage": {
+    "model_calls": 4,
+    "calls_with_usage": 4,
+    "totals": {
+      "prompt_eval_count": 4173,
+      "eval_count": 439,
+      "total_duration": 10036711600,
+      "load_duration": 1278584700,
+      "prompt_eval_duration": 691131000,
+      "eval_duration": 7971501000
+    }
+  },
+  "events_sha256": "9a2ac9f1574eb36d4b66a8aa41980ab1cf25c7d229d4f4b77b655391c08fcf19",
+  "report_sha256": "ecd0fb93b174c1c8c10c0c41e832c52b7ca485537de2077240c913f66c07f695"
+}

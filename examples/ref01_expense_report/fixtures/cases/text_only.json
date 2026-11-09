@@ -1,0 +1,33 @@
+{
+  "constructed": true,
+  "provenance": "Model turns written by the handbook author to imitate a behaviour; not recorded model output.",
+  "case_id": "text_only",
+  "claim": "claim_normal.json",
+  "policy": "policy.md",
+  "description": "The model answers in prose and never submits a structured answer.",
+  "turns": [
+    {
+      "tool": "read_document",
+      "input": {
+        "name": "policy.md"
+      }
+    },
+    {
+      "text": "The claim looks fine. Approve 187.00."
+    }
+  ],
+  "expected": {
+    "status": "failed",
+    "failed_checks": []
+  },
+  "label": {
+    "decision": "partially_approved",
+    "total_allowed": "187.00",
+    "items": {
+      "0": "72.00",
+      "1": "25.00",
+      "2": "0.00",
+      "3": "90.00"
+    }
+  }
+}
